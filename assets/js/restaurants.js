@@ -7,7 +7,7 @@ function getRestaurants(lat, lon){
 	cuisines = [];
 
 	//zomato parameters
-	var apiKey = "c188051510e27b0340260960580b380e";
+	var apiKey = "e58f96c875026ca55239c801ee1ff023";
 	var queryURL = "https://developers.zomato.com/api/v2.1/search";
 
 	var parameters = {};

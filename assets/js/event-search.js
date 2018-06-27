@@ -84,7 +84,7 @@ function validateLocation(){
 }
 
 function eventSearch(input){
-    var TOKEN = "7BOLZ5GWYR4MT73OKQPH";
+    var TOKEN = "F3NDSRW3HAGSPURURB";
     var URL = "https://www.eventbriteapi.com/v3/events/search/";
 
     //create parameter object

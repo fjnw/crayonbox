@@ -34,7 +34,7 @@ function generateMap(lat, long) {
 		//Streetview overlay
 		id: 'mapbox.streets',
 		//access token for mapbox
-		accessToken: 'pk.eyJ1Ijoia29pcG9uZHRlYXJkcm9wIiwiYSI6ImNqOTR1c2x5YzFnNjYyd3FiNmhnaXVsN3AifQ.Ja_5lBjdw-888qiaCIaUXw'
+		accessToken: 'pk.eyJ1IjoiZmpudyIsImEiOiJjaml3dnNybnMwYTVqM3dwZDVoczkyNmM5In0.HcjoN4Mq4NyNLK3CIM6gKg'
 		});
 	//add the streetview overlay to the Leaflet map
 	eventMap.addLayer(tileLayer);
