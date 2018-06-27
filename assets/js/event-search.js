@@ -84,7 +84,7 @@ function validateLocation(){
 }
 
 function eventSearch(input){
-    var TOKEN = "F3NDSRW3HAGSPURURB";
+    var TOKEN = "XY4LD6PUS4JWJRG3MHG5";
     var URL = "https://www.eventbriteapi.com/v3/events/search/";
 
     //create parameter object
@@ -119,7 +119,7 @@ function eventSearch(input){
 
 //retreive long and lat of event venue
 function locationSearch(eventObject){
-    var TOKEN = "7BOLZ5GWYR4MT73OKQPH";
+    var TOKEN = "XY4LD6PUS4JWJRG3MHG5";
     var URL = "https://www.eventbriteapi.com/v3/venues/" + eventObject["venue_id"] + "/";
 
     var query = {
